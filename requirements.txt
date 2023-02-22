@@ -1,1 +1,1 @@
-penAIAuth==0.3.2
+OpenAIAuth==0.3.2
