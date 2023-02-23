@@ -10,7 +10,7 @@ class handler(BaseHTTPRequestHandler):
         self.send_header('Content-type', 'text/plain')
         self.end_headers()
         auth = Authenticator(
-            email_address=self.headers.get('x-email'), password=self.headers.get('x-password'))
+            email_address=self.headers.get('X-Email'), password=self.headers.get('X-Password'))
         auth.begin()
         self.wfile.write(auth.get_access_token().encode('utf-8'))
         return
