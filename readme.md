@@ -5,6 +5,7 @@ POST `https://chatgpt-auth.vercel.app/api`
 在 Header 中传入
 - `email` OpenAI 账号
 - `password` OpenAI 密码
+- `proxy` 代理. 可选
 
 
 服务于 [zhuweiyou/chatgpt-api](https://github.com/zhuweiyou/chatgpt-api)
